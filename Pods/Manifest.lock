@@ -1,0 +1,85 @@
+PODS:
+  - Alamofire (5.2.1)
+  - AlamofireObjectMapper (6.3.0):
+    - Alamofire (~> 5.1)
+    - ObjectMapper (~> 3.5.1)
+  - GoogleMaps (3.9.0):
+    - GoogleMaps/Maps (= 3.9.0)
+  - GoogleMaps/Base (3.9.0)
+  - GoogleMaps/Maps (3.9.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.9.0):
+    - GoogleMaps/Base (= 3.9.0)
+  - ObjectMapper (3.5.3)
+  - ReactorKit (2.1.0):
+    - RxSwift (~> 5.0)
+    - WeakMapTable (~> 1.1)
+  - RxAlamofire (5.3.1):
+    - RxAlamofire/Core (= 5.3.1)
+  - RxAlamofire/Core (5.3.1):
+    - Alamofire (~> 5.1)
+    - RxSwift (~> 5.1)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SwiftyUserDefaults (5.0.0)
+  - Then (2.6.0)
+  - WeakMapTable (1.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - AlamofireObjectMapper (from `https://github.com/RomanPodymov/AlamofireObjectMapper.git`)
+  - GoogleMaps
+  - GooglePlaces
+  - ReactorKit
+  - RxAlamofire
+  - RxCocoa (~> 5)
+  - RxSwift (~> 5)
+  - SwiftyUserDefaults (~> 5.0)
+  - Then
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - GoogleMaps
+    - GooglePlaces
+    - ObjectMapper
+    - ReactorKit
+    - RxAlamofire
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SwiftyUserDefaults
+    - Then
+    - WeakMapTable
+
+EXTERNAL SOURCES:
+  AlamofireObjectMapper:
+    :git: https://github.com/RomanPodymov/AlamofireObjectMapper.git
+
+CHECKOUT OPTIONS:
+  AlamofireObjectMapper:
+    :commit: d2a07b976605665c8377f4779481beb640b019b8
+    :git: https://github.com/RomanPodymov/AlamofireObjectMapper.git
+
+SPEC CHECKSUMS:
+  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
+  AlamofireObjectMapper: ee298085f0b0881c37ad7b6491a63a9ee96dff84
+  GoogleMaps: 4b5346bddfe6911bb89155d43c903020170523ac
+  GooglePlaces: 1634d019549b969d40fe0ccb0b9513055adebe01
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
+  ReactorKit: 12a93358c554bb3f167b16b14c40374fa9cd5acd
+  RxAlamofire: 15502b290253fab68688dafd60914c6390e9cc73
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SwiftyUserDefaults: 33fcb42bd1feb53a37d873feb62c82967db5f7f6
+  Then: 90cd104fd951cec1980a03f57704ad8f784d4d79
+  WeakMapTable: d0327eda092be6a8f7c532942ae98dc7948f5d32
+
+PODFILE CHECKSUM: b008da277c5fced4fd482b974cbd0268b66f9f75
+
+COCOAPODS: 1.9.1
