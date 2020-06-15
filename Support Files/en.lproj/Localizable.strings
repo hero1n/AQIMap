@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  AQIMap
+
+  Created by jaewon on 2020/06/09.
+  Copyright © 2020 jaewon. All rights reserved.
+*/
+
+
+"Point A" = "Point A";
+"Point B" = "Point B";
+"Coord: (%@, %@)" = "Coord: (%@, %@)";
+"AQI: %@" = "AQI: %@";
